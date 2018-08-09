@@ -1,0 +1,148 @@
+/* BELOW IS ALL PROVIDED BY CREATE REACT APP */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/* ABOVE IS ALL PROVIDED BY CREATE-REACT-APP */
+
+body{
+    background-image:url('assets/libBackground.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.book-table {
+  border: solid .3rem;
+  border-color: #433122;
+}
+.library-rows.table-rows:hover {
+  background-color:#665242;
+  color: orange;
+}
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+}
+.carousel-image {
+  height: 600px;
+  width:100%;
+}
+
+#myFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.tiny-modal-text {
+  font-size: 70%;
+}
+
+.img-thumbnail.book-cover-thumbnail {
+  width: 235px;
+  height: 200px;
+}
+.card.center-card {
+  margin: auto;
+}
+.marg-top-bot{
+  margin-top:5%;
+  margin-bottom: 10%;
+}
+
+.bg-dark-brown {
+  background-color: #665242;
+}
+
+.bg-dark-beige {
+  background-color: #AE9784;
+}
+
+.bg-light-beige {
+  background-color: #D7BDA7;
+}
+
+.bg-light-brown {
+  background-color: #897461;
+}
+
+.bg-darkest-brown {
+  background-color: #433122;
+}
+.color-white {
+  color:white;
+}
+.btn.bg-light-beige:hover {
+  background-color: #AE9784;
+}
+
+.bg-wood {
+  background-image: url("assets/wood-bg.jpg");
+}
+
+tr.library-rows.table-rows {
+  background-color: #D7BDA7;
+}
+
+
+.show {
+  display:block !important;
+  margin:auto;
+}
+
+.hide {
+  display: none !important;
+  margin:auto;
+}
+#randomBookCoverImage {
+  max-height: 200px;
+}
+
+#selectedBookCoverImage {
+  max-height: 200px;
+}
+
+.thumbnailImage{
+  max-height:50px;
+}
+
+.thumbnailImage:hover {
+  max-height: 125px;
+}
